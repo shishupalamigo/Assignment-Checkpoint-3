@@ -446,3 +446,17 @@ a {
    font-size: 14px;
    font-weight: 900; 
 }
+/* ALL GENERAL STYLES AND HOMEPAGE STYLES ENDS HERE */
+
+/* ABOUT PAGE STYLES */
+.about-hero {
+    height: 30vh;
+    background: linear-gradient(to right, rgba(76, 156, 221, 0.2), rgba(76, 156, 221, 0.2)),
+                url(../media/hero/about_hero.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.about-hero h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #fff;
+}
