@@ -745,7 +745,7 @@ a {
 .get-in-touch-form .subject-input {
     width: 100%;
 }
-.send-btn {
+.get-in-touch-form .send-btn {
     border-radius: 0;
     padding: .5em 1.5em;
 }
