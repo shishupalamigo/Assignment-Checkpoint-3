@@ -120,7 +120,8 @@ a {
 .header-top {
     background: var(--primary-color);
     color: #fff;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     margin-bottom: 1em;
 }
 .header-top a {
@@ -588,6 +589,8 @@ a {
     font-weight: 600;
     color: var(--primary-color);
     margin-bottom: 2em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid rgb(221, 220, 220);
   }
 .search-container {
     margin-bottom: 2em;
@@ -627,9 +630,6 @@ a {
     margin-bottom: 2em;
     background: rgb(255, 252, 252);
 }
-.blog-dashboard hr {
-    border: 1px solid rgb(224, 223, 223);
-}
 .category ul {
     color: var(--para-color);
 }
@@ -637,6 +637,11 @@ a {
     margin-bottom: .5em;
     font-size: 15px;
     font-weight: 700;
+    padding-bottom: .5em;
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+.category .border-bottom-none {
+    border-bottom: none;
 }
 .recent-post {
     margin-bottom: 2em;
